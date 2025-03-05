@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overscroll-behavior: smooth;
+    user-select: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 90%;
+    max-width: 1440px;
+    gap: 24px;
+}
+
+.employees-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.employe-card {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.picture {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    overflow: hidden;
+}
