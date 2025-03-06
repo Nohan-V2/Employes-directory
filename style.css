@@ -9,6 +9,10 @@ html {
     user-select: none;
 }
 
+.hidden {
+    display: none !important;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -32,7 +36,6 @@ main {
 
 .employe-card {
     display: flex;
-    justify-content: center;
     gap: 16px;
 }
 
