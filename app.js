@@ -52,6 +52,10 @@ fetch(
       $employeCard.addEventListener("click", function (e) {
         $employeesWrapper.classList.add("hidden");
         $employeesDetails.classList.remove("hidden");
+
+        $email.addEventListener("click", function (e) {
+          navigator.clipboard.writeText(element.email);
+        });
       });
     });
   })
